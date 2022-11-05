@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+.limite-secao{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width:1024px;
+}
+
+h2{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0px;
+
+}
+@media screen and (max-width: 768px) {
+  .limite-secao{
+    width: 768px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .limite-secao{
+    width: 550px;
+  }
+}
